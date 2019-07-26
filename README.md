@@ -4,10 +4,15 @@ Este proyecto esta enfocado a saber la satisfaccion de un cliente (tambien llama
 
 ###  Miembros del grupo
 El grupo esta conformado por 7 personas de las cuales 5 somos los que terminamos el proyecto.
+
 -[Juan]
+
 -[Alvaro]
+
 -[Christian]
+
 -[Roger]
+
 -[Jean]
 
 
