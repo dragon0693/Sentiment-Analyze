@@ -1,4 +1,4 @@
-# Aprende python para ciencia de datos
+# Proyecto semanal sobre Analisis de Sentimientos
 <img src="https://i.ibb.co/hVPqFtn/aprende-python-para-cienca-de-datos.png" width="525"/>
 
 Exposición de 5 minutos sobre python en Hack Space Perú
