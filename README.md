@@ -1,9 +1,10 @@
 # Proyecto semanal sobre Analisis de Sentimientos
 <img src="https://i.ibb.co/hVPqFtn/aprende-python-para-cienca-de-datos.png" width="525"/>
+Este proyecto esta enfocado a saber la satisfaccion de un cliente (tambien llamado experienca de usuario) a travez de un comentario y nostros analizamos las palabras que se pongan para determinar los sentimientos asociados al comentario.
 
-Exposición de 5 minutos sobre python en Hack Space Perú
+El grupo esta conformado por 7 personas de las cuales 4 somos los que terminamos el proyecto.
 
 
-###  Materiales
-- [Diapositiva](https://drive.google.com/file/d/1AJbb0pG_tDH0zoL19LpN64F9RQd0AlLe/view)
-- [Clases y Ejercicios](https://drive.google.com/drive/folders/1cZUfaEqS4Fc3W1C7Vpwphdrji-wqfBqz?usp=sharing) 
+###  Lenguajes y librerias usadas
+- [Pandas](https://www.learnpython.org/es/Pandas%20Basics)
+- [TextBlob](https://textblob.readthedocs.io/en/dev/) 
