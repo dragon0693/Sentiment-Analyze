@@ -1,0 +1,107 @@
+body,html{
+  padding: 0;margin: 0;
+  box-sizing: border-box;
+  background-image:linear-gradient(-90deg, #FFC400 50%, gray 50.5%);
+}
+.menu{
+  margin: 5vh;
+}
+.uno{
+  height: 100px;
+}
+.dos{
+  height: 100px;
+  margin-top: -2.5em;
+}
+p{
+  color: gray;
+  display: inline-block;
+  padding: 10px;
+  font-size: 30px;
+  border: 3px solid gray;
+}
+span{
+  color: white;
+  font-size: 1.8em;
+}
+img{
+  width: 100%;
+  height: 110%;
+}
+.as{
+  width: 80%;
+  padding: 10%;
+  border-radius:50%;
+}
+.mensaje{
+  height: 20em;
+  background:white;
+  border-radius: 0 30px 30px 30px;
+}
+.grafico{
+  height: 30em;
+  background:white;
+  border-radius:30px 30px 30px 30px;
+}
+.tres{
+  width: 7em;
+  height: 3em;
+  color: black;
+  border-radius: 20px;
+  background-color: white;
+}
+table {
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+  border: 1px solid #d4d4d4;
+  font-size: 20px;
+  background: #fff;
+}
+
+table th, 
+table tr:nth-child(2n+2) {
+  background: #e7e7e7;
+}
+ 
+table th, 
+table td {
+  padding: 20px 50px;
+}
+ 
+table th {
+  border-bottom: 1px solid #d4d4d4;
+}     
+
+.stars-outer {
+  display: inline-block;
+  position: relative;
+  font-family: FontAwesome;
+}
+
+.stars-outer::before {
+  content: "\f006 \f006 \f006 \f006 \f006 \f006 \f006 \f006 \f006 \f006";
+}
+
+.stars-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+}
+
+.stars-inner::before {
+  content: "\f005 \f005 \f005 \f005 \f005 \f005 \f005 \f005 \f005 \f005";
+  color: #f8ce0b;
+}
+@media only screen and (max-width: 601px) {
+  span{
+    font-size: 1.2em;
+  }
+  p{
+    font-size: 1.5em;
+  }
+
+}

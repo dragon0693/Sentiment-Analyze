@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/uno.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Comentarios</title>
+</head>
+
+<body>
+    <div class="row menu">
+        <div class="col xl3 l6 m6 s6 push-xl2 push-l2 push-m2 uno">
+            <div class="row">
+                <div class="col xl4 l2 m3 s6">
+                    <a href="index.html" class="waves-effect waves-orange white z-depth-3 as">
+                        <img src="src/coment.svg" alt="" class="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col xl3 l6 m6 s6 push-xl6 push-l3 push-m3 dos">
+            <p>CLIENTE</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m8 l8 xl8 push-xl2 push-l2 push-m2">
+            <span>Ingrese su comentario</span>
+            <form action="/save_text" name="texto" method="post">
+                <div class="mensaje z-depth-4">
+                    <textarea id="msg" class="materialize-textarea">
+                    </textarea>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col xl12 l12 m12 s12 center-align">
+            <button id="enviar" data-target="modal1" class="btn white black-text modal-trigger" type="submit" name="guardar">Enviar
+            </button>
+        </div>
+    </div>
+    <div id="modal1" class="modal">
+        <div class="modal-content">
+                <table>
+                        <thead>
+                          <tr>
+                            <th>Palabra clave</th>
+                            <th>Puntaje</th>
+                          </tr>
+                        </thead>
+                        <tbody id="tbody_animo_list">
+                        </tbody>
+                 </table>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-close waves-effect waves-green btn-flat">Agree</a>
+        </div>
+    </div>
+
+</body>
+<script src="https://kit.fontawesome.com/6e74df461b.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js">
+</script>
+<script src="js/administrador.js"></script>
+</html>

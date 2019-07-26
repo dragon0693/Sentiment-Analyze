@@ -1,0 +1,12 @@
+[
+  {"animo":"Muy contento",            "score":10},
+  {"animo":"Contento",                "score":4},
+  {"animo":"Muy feliz",               "score":5},
+  {"animo":"Estas feliz",             "score":7},
+  {"animo":"Te agrado",               "score":6},
+  {"animo":"Estas confundido",        "score":5},
+  {"animo":"Estas dudando",           "score":4},
+  {"animo":"No te agrado",            "score":3},
+  {"animo":"Estas disgustado",        "score":2},
+  {"animo":"Muy disgustado",          "score":1}
+]

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/uno.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.css">
+    <script src="js/administrador.js"></script>
+    <title>Administrador</title>
+</head>
+
+<body>
+    <div class="row menu">
+        <div class="col xl3 l6 m6 s6 push-xl2 push-l2 push-m2 uno">
+            <div class="row">
+    
+                <div class="col xl4 l2 m3 s6">
+                    <a href="index.html" class="waves-effect waves-orange white z-depth-3 as">
+                        <img src="src/coment.svg" alt="" class="">
+                    </a>
+                </div>
+                <div class="col xl4 l2 m3 s6">
+                    <a href="administrador.html" class="waves-effect waves-orange white z-depth-3 as">
+                        <img src="src/administrador.png" alt="" class="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col xl3 l6 m6 s6 push-xl6 push-l3 push-m3 dos">
+            <p>Administrador</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col s12 m8 l8 xl8 push-xl2 push-l2 push-m2">
+            <span>Sus resultados</span>
+            <form action="/add_text" method="post">
+                <div class="grafico ct-chart z-depth-4">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/chartist.js/latest/chartist.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="js/administrador.js"></script>
+
+</html>
