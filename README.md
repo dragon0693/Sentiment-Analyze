@@ -15,6 +15,8 @@ El grupo esta conformado por 7 personas de las cuales 5 somos los que terminamos
 
 -[Jean]
 
+-[Donny]
+
 
 ###  Lenguajes y librerias usadas
 - [Pandas](https://www.learnpython.org/es/Pandas%20Basics)
