@@ -19,5 +19,9 @@ El grupo esta conformado por 7 personas de las cuales 5 somos los que terminamos
 
 
 ###  Lenguajes y librerias usadas
+- [Pythom](https://www.learnpython.org)
+- [JavaScript](https://www.learn-js.org/)
+- [JSON](https://pythonise.com/feed/flask/working-with-json-in-flask)
+- [Mysql](https://www.quora.com/How-do-I-start-learning-MySQL)
 - [Pandas](https://www.learnpython.org/es/Pandas%20Basics)
 - [TextBlob](https://textblob.readthedocs.io/en/dev/) 
